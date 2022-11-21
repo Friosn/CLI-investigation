@@ -13,7 +13,7 @@ inquirer
   ])
   .then((answers) => {
     if (answers.src === "Yes") {
-      fs.writeFile(".src", "I am a damm file duh!", ".model", () =>
+      fs.writeFile("generating.js", "I am a damm file duh!", () =>
         console.log("All went right, folder created 🧙🏼‍♂️")
       );
     }
